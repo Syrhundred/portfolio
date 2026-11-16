@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #111111;
+  --muted: #9a9a9a;
+  --tab-off: #bdbdbd;
+  --line: #c8c8c8;
+  --rule: #eeeeee;
+  --thumb: #f2f2f2;
+  --thumb-line: #e4e4e4;
+  --paper: #ffffff;
+
+  --globerce: #be4443;
+  --freedom-bg: #f4f2ee;
+  --mindwave-bg: #111111;
+  --jaryq: #ff8e03;
+  --jaryq-ink: #0d0d0d;
+  --jaryq-bg: #f4f2ee;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-tab-off: var(--tab-off);
+  --color-line: var(--line);
+  --color-rule: var(--rule);
+  --color-thumb: var(--thumb);
+  --color-thumb-line: var(--thumb-line);
+  --color-paper: var(--paper);
+  --color-globerce: var(--globerce);
+  --color-freedom-bg: var(--freedom-bg);
+  --color-mindwave-bg: var(--mindwave-bg);
+  --color-jaryq: var(--jaryq);
+  --color-jaryq-ink: var(--jaryq-ink);
+  --color-jaryq-bg: var(--jaryq-bg);
+}
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+  }
+
+  .font-primary {
+    font-family: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, monospace;
+  }
+
+  .font-display {
+    font-family: var(--font-unbounded), "Unbounded", sans-serif;
+  }
+}
