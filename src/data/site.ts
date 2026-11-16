@@ -3,8 +3,8 @@ export const site = {
   role: "FRONTEND DEVELOPER 2026",
   email: "madiev.inc@gmail.com",
   phone: "+7 771 509 3213",
-  // Replace with your real profile URL and CV file (e.g. put cv.pdf in /public).
-  linkedin: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/syrkhan-madiyev-5b7a11291/",
+  /** Built from cv/cv.tex — `pdflatex -output-directory=public cv/cv.tex`. */
   cv: "/cv.pdf",
 };
 

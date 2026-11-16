@@ -1,0 +1,76 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\geometry{top=1.3cm, bottom=1.3cm, left=1.5cm, right=1.5cm}
+
+\hypersetup{colorlinks=true,urlcolor=blue}
+
+% Compact sections
+\titlespacing{\section}{0pt}{6pt}{3pt}
+\titleformat{\section}{\bfseries\large}{}{0em}{}[\titlerule]
+
+\setlist[itemize]{left=1em, noitemsep, topsep=2pt}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Syrkhan Madiyev}} \\[4pt]
+  Almaty, Kazakhstan \,|\, 
+  \href{mailto:madiev.inc@gmail.com}{madiev.inc@gmail.com} \,|\, +7 771 509 3213 \\
+  \href{https://www.linkedin.com/in/syrkhan-madiyev-5b7a11291/}{linkedin.com/in/syrkhan-madiyev}
+\end{center}
+
+\section*{Summary}
+Frontend Developer with 2+ years of experience in building scalable web and desktop applications (React/Next.js, Vue/Nuxt.js, Tauri). Experienced in developing self-service kiosk software, integrating hardware components (Serial Port, ID scanners, biometrics), and working with modern state management (Redux Toolkit, RTK Query, Zustand). Proficient in setting up CI/CD workflows, component testing (Storybook), and cross-functional team collaboration.
+
+\section*{Education}
+\textbf{Suleyman Demirel University}, Almaty \hfill 2025 \\
+Bachelor of Information Systems (Minor in Information Systems)
+
+\section*{Experience}
+\textbf{Globerce Capital LTD} \hfill Jan 2026 – Present \\
+\textit{Middle Frontend Developer}
+\begin{itemize}
+  \item \textbf{Card Terminal (CardKiosk) Project:} Developed a cross-platform kiosk desktop application built with \textbf{Tauri (Rust + React 18/TypeScript)} for self-service instant card issuance terminals.
+  \item Engineered the end-to-end card issuance flow: OTP verification, biometric liveness check, document scanning (\textbf{Regula Forensics SDK}), 3D card design selector, and card printing.
+  \item Integrated hardware components (embosser/card printer) via Rust-based \textbf{serial-port} plugins and implemented native camera integration (\textbf{Media Foundation}).
+  \item Configured automated OpenAPI client generation for \textbf{RTK Query}, established routing with \textbf{TanStack Router}, and handled form validations using \textbf{React Hook Form + Valibot}.
+  \item Implemented kiosk-specific features including user inactivity auto-reset, JWT authentication, and secure single-instance mode.
+  \item Automated versioning and release workflows using \textbf{semantic-release} in GitLab CI/CD, alongside linting and pre-commit hooks (\textbf{Biome, Lefthook}).
+\end{itemize}
+
+\textbf{JARYQ LAB — Outsourcing Company} \hfill Aug 2025 – Jan 2026 \\
+\textit{Frontend Developer}
+\begin{itemize}
+  \item Built and maintained web applications using React (Next.js).
+  \item Applied advanced state management using Pinia, Redux Saga, and Zustand.
+  \item Integrated TanStack Query \& RTK Query to optimize data fetching and client-side caching.
+  \item Standardized UI development workflows with Storybook \& Chromatic, accelerating feature delivery.
+\end{itemize}
+
+\textbf{MindWave — Educational Platform} \hfill Aug 2024 – Aug 2025 \\
+\textit{Frontend Developer}
+\begin{itemize}
+  \item Developed interactive user interfaces and responsive landing pages using \textbf{Nuxt.js}, TypeScript, and TailwindCSS.
+  \item Implemented semantic HTML and SCSS to ensure clean, maintainable styling across educational tools.
+  \item Built reusable UI components with \textbf{AntDesign} and crafted complex custom animations.
+  \item Optimized asset loading and bundle sizes, significantly enhancing application performance and accessibility.
+\end{itemize}
+
+\section*{Skills}
+\textbf{Frontend \& Desktop:} React 18, Next.js, Vue, Nuxt.js, Tauri (Rust), TypeScript, JavaScript (ES6+) \\
+\textbf{State \& Routing:} Redux Toolkit, RTK Query, TanStack Query, TanStack Router, Zustand, Pinia \\
+\textbf{Styling \& Forms:} TailwindCSS, SCSS, AntDesign, Material UI, React Hook Form, Valibot \\
+\textbf{Hardware \& SDKs:} Regula Forensics SDK, Serial Port integration, Camera (Media Foundation) \\
+\textbf{Tools \& DevOps:} Git, GitLab CI/CD, semantic-release, Storybook, Biome, Lefthook, Figma, Jira
+
+\section*{Soft Skills}
+Teamwork, Problem Solving, Leadership, Strategic Thinking, Discipline, Adaptability, Communication
+
+\section*{Languages}
+English (Upper-Intermediate) \,|\, Kazakh (Native) \,|\, Russian (Native)
+
+\end{document}
